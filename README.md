@@ -45,6 +45,23 @@ Clone the repository and run the analysis script:
 git clone https://github.com/HaneenAljamal/rb1-retinal-organoids-rnaseq.git
 cd rb1-retinal-organoids-rnaseq
 Rscript scripts/analysis.R
+```
+## Repository Structure
+rb1-retinal-organoids-rnaseq/
+│
+├── scripts/ # Folder containing the R analysis script
+│ └── analysis.R
+├── results/ # Folder where DESeq2 CSV output files will be saved
+│ ├── deseq_knockout_vs_wildtype.csv
+│ └── deseq_heterozygous_vs_wildtype.csv
+├── plots/ # Folder where plots (PDFs) will be saved
+│ ├── MAplot_knockout.pdf
+│ └── Volcano_knockout.pdf
+└── README.md # This file, explains the project
+
+## Citations
+- Love, M. I., Huber, W., & Anders, S. (2014). Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2. Genome Biology, 15(12), 550.
+- Blighe, K., Rana, S., & Lewis, M. (2019). EnhancedVolcano: publication-ready volcano plots with enhanced colouring and labeling. Bioconductor package.
 
 
 
