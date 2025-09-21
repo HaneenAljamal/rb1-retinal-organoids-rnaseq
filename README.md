@@ -7,11 +7,11 @@ The analysis workflow is inspired by publicly available RNA-seq tutorials, such 
 ["Differential Expression Analysis with DESeq2" by StatQuest](https://www.youtube.com/watch?v=NGbZmlGLG5w).  
 
 ## Outputs
-# Differential expression results: 
+Differential expression results: 
 results/deseq_knockout_vs_wildtype.csv
 results/deseq_knockout_vs_wildtype.csv
 
-# Plots
+Plots
 plots/MAplot_knockout.pdf
 plots/Volcano_knockout.pdf
 
