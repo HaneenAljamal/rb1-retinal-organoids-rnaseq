@@ -112,9 +112,20 @@ pdf("plots/MAplot_knockout.pdf")
 plotMA(res_knockout)
 dev.off()
 
+pdf("plots/MAplot_heterozygous.pdf")
+plotMA(res_heterozygous)
+dev.off()
+
 pdf("plots/Volcano_knockout.pdf")
 EnhancedVolcano(res_knockout,
                 lab = rownames(res_knockout),
+                x = 'log2FoldChange',
+                y = 'pvalue')
+dev.off()
+
+pdf("plots/Volcano_heterozygous.pdf")
+EnhancedVolcano(res_heterozygous,
+                lab = rownames(res_heterozygous),
                 x = 'log2FoldChange',
                 y = 'pvalue')
 dev.off()
