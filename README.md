@@ -14,6 +14,8 @@ Differential expression results:
 Plots:
 - plots/MAplot_knockout.pdf
 - plots/Volcano_knockout.pdf
+- plots/MAplot_heterozygous.pdf
+- plots/Volcano_heterozygous.pdf
 
 ## Dataset
 - **Accession:** E-MTAB-10331  
