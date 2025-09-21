@@ -15,3 +15,6 @@ The analysis workflow is inspired by publicly available RNA-seq tutorials, such 
 This repository is for **educational and reproducibility purposes only**.  
 The authors of this repository do not claim ownership of the original dataset.
 
+## Requirements
+- R (version 4.4.1, released 2024-06-14)
+- Suggested R packages: 
