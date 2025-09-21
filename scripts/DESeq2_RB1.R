@@ -14,7 +14,7 @@ rm(list = ls())  # Removes all objects from environment
 library(DESeq2)               #for differential expression
 
 ##
-BiocManager::install('EnhancedVolcano')        #for volcano plot
+#BiocManager::install('EnhancedVolcano')        #for volcano plot
 library(EnhancedVolcano)
 
 #______________________________________________________
@@ -118,4 +118,5 @@ EnhancedVolcano(res_knockout,
                 x = 'log2FoldChange',
                 y = 'pvalue')
 dev.off()
+
 
