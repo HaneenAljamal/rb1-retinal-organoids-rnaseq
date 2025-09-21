@@ -21,10 +21,20 @@ Plots:
 - **Publication:** Kanber, C. et al. (2022). *Transcriptome profiling of retinal organoids with RB1 mutations*  
 - **License:** Creative Commons Attribution 4.0 International (CC BY 4.0)
 
-## Disclaimer
-This repository is for **educational and reproducibility purposes only**.  
-The authors of this repository do not claim ownership of the original dataset.
 
 ## Requirements
 - R (version 4.4.1, released 2024-06-14)
 - Suggested R packages:  `DESeq2`, `EnhancedVolcano`  `BiocManager` (for installation)
+
+  ## Usage
+
+Clone the repository and run the analysis script:
+
+```bash
+git clone https://github.com/HaneenAljamal/rb1-retinal-organoids-rnaseq.git
+cd rb1-retinal-organoids-rnaseq
+Rscript analysis.R
+
+## Disclaimer
+This repository is for **educational and reproducibility purposes only**.  
+The authors of this repository do not claim ownership of the original dataset.
