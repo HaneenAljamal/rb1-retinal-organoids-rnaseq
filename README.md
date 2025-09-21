@@ -17,4 +17,4 @@ The authors of this repository do not claim ownership of the original dataset.
 
 ## Requirements
 - R (version 4.4.1, released 2024-06-14)
-- Suggested R packages:  `DESeq2`
+- Suggested R packages:  `DESeq2`, `EnhancedVolcano`  `BiocManager` (for installation)
