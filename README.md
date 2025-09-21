@@ -32,7 +32,7 @@ Install missing packages in R:
 if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
 BiocManager::install(c("DESeq2", "EnhancedVolcano"))
-
+```
 ## Disclaimer
 This repository is for **educational and reproducibility purposes only**.  
 The authors of this repository do not claim ownership of the original dataset.
