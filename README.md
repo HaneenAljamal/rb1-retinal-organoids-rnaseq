@@ -11,7 +11,7 @@ Differential expression results:
 results/deseq_knockout_vs_wildtype.csv
 results/deseq_knockout_vs_wildtype.csv
 
-Plots
+Plots:
 plots/MAplot_knockout.pdf
 plots/Volcano_knockout.pdf
 
