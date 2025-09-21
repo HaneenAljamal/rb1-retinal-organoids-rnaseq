@@ -44,6 +44,7 @@ Clone the repository and run the analysis script:
 ```bash
 git clone https://github.com/HaneenAljamal/rb1-retinal-organoids-rnaseq.git
 cd rb1-retinal-organoids-rnaseq
-Rscript analysis.R
+Rscript scripts/analysis.R
+
 
 
