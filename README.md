@@ -47,6 +47,7 @@ cd rb1-retinal-organoids-rnaseq
 Rscript scripts/analysis.R
 ```
 ## Repository Structure
+```
 rb1-retinal-organoids-rnaseq/
 │
 ├── scripts/ # Folder containing the R analysis script
@@ -58,6 +59,7 @@ rb1-retinal-organoids-rnaseq/
 │ ├── MAplot_knockout.pdf
 │ └── Volcano_knockout.pdf
 └── README.md # This file, explains the project
+```
 
 ## Citations
 - Love, M. I., Huber, W., & Anders, S. (2014). Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2. Genome Biology, 15(12), 550.
