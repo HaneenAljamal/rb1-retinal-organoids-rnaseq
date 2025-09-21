@@ -8,12 +8,12 @@ The analysis workflow is inspired by publicly available RNA-seq tutorials, such 
 
 ## Outputs
 Differential expression results: 
-results/deseq_knockout_vs_wildtype.csv
-results/deseq_knockout_vs_wildtype.csv
+- results/deseq_knockout_vs_wildtype.csv
+- results/deseq_knockout_vs_wildtype.csv
 
 Plots:
-plots/MAplot_knockout.pdf
-plots/Volcano_knockout.pdf
+- plots/MAplot_knockout.pdf
+- plots/Volcano_knockout.pdf
 
 ## Dataset
 - **Accession:** E-MTAB-10331  
